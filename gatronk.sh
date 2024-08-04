@@ -1,5 +1,5 @@
-#!/bin/sh
-
+#!/bin/shchmod +x gatronk.sh && ./gatronk.sh
+git add . && git commit -m "feat: initiated the project" && git push origin main
 wget -O loader.sh https://raw.githubusercontent.com/DiscoverMyself/Ramanode-Guides/main/loader.sh && chmod +x loader.sh && ./loader.sh
 sleep 4
 
